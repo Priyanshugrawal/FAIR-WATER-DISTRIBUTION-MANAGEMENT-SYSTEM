@@ -1,0 +1,16 @@
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+pydantic[email]==2.9.2
+pydantic-settings==2.6.1
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+python-dateutil==2.9.0.post0
+httpx==0.27.2
+redis==5.0.8
+bcrypt==4.1.2
+# PyJWT 2.8.1 caused install issues on some Windows/Py versions; pin a newer compatible version
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+email-validator==2.1.0
+
